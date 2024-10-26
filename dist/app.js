@@ -193,7 +193,7 @@ const createEmployee = () => {
     });
 };
 function quitApp() {
-    console.log(colors.yellow('Fairwell'));
+    console.log(colors.yellow('Ciao'));
     process.exit();
 }
 basePrompt();
