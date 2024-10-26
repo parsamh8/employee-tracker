@@ -12,7 +12,7 @@ const basePrompt = () => {
         type: 'list',
         name: 'choice',
         message: 'What would you like to do?',
-        choices: ['View All Departments', 'Add Department', 'View All Roles', 'Add Role', 'View All Employees', 'Add Employee', 'Update Employee Role']
+        choices: ['View All Departments', 'Add Department', 'View All Roles', 'Add Role', 'View All Employees', 'Add Employee', 'Update Employee Role', 'Quit']
       }
     ])
     .then(res => {
@@ -44,6 +44,10 @@ const basePrompt = () => {
 
       if (res.choice === 'Update Employee Role') {
         updateEmployeeRole();
+      }
+
+      if (res.choice === 'Quit') {
+        quitApp();
       }
 
     })
@@ -220,6 +224,11 @@ const createEmployee = () => {
       });
     })
 
+}
+
+function quitApp() {
+  console.log(colors.yellow('Ciao'));
+  process.exit();
 }
 
 
