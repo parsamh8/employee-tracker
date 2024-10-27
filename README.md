@@ -2,6 +2,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-brown.svg)
 
 Employee Tracker is a command-line application designed to manage an organization’s employee database. It enables users to view and manage departments, roles, and employees directly from the terminal. Using the inquirer package for interactive prompts and pg for PostgreSQL database interactions, this app provides an efficient and intuitive way to handle essential employee and organizational data.
+
+
 ## Table of Contents
 
 - [employee-tracker](#employee-tracker)
@@ -26,7 +28,6 @@ Please use following steps in your Node.JS environment to run the application:
 ## Usage
 
 https://drive.google.com/file/d/1_bBPrp8RuCxCqPAiNgObLnNc-JZs_3ly/view
-
 
 When the application starts, the user is presented with the following options:
 - View All Departments
