@@ -39,8 +39,6 @@ When the application starts, the user is presented with the following options:
 - Update Employee Role
 - Quit
   
-![alt text](assets/Capture.png)
-
 
 ## Tests
 
